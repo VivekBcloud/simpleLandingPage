@@ -1,0 +1,318 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Girassol&family=Orbitron&family=Reggae+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,200&family=Noto+Sans+JP:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Noto-Sans: "Noto Sans JP";
+    --koho: "KoHo", italic;
+    --Codystar: "Codystar";
+    --Girasso: "Girasso";
+    --Orbitron: "Orbitron";
+    --Reggae-One: "Reggae One";
+    --Roboto: "Roboto";
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(209, 202, 202, 0.836);
+    --boxgradient: linear-gradient(to bottom,
+            #f3f3f3, #d8cfcc);
+
+}
+
+header a {
+    font-family: var(--Girasso);
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header navbar-brand {
+    padding-left: 8rem;
+
+}
+
+header .navbar-brand:hover {
+    color: black;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+
+}
+
+header .row .col-md-7 {
+    font-family: var(--Noto-Sans);
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    color: white;
+}
+
+header .row .col-md-5 img {
+    margin-top: 10vmin;
+    width: 90%;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 6px;
+}
+
+header .container .col-md-7 h1 {
+    font-family: var(--Codystar);
+    font-size: 8vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+/* Section 1*/
+
+.section-1 {
+    padding: 20vmin 0;
+}
+
+/* .section-1 .row .col-md-6 .uniq .carousel {
+    opacity: 0.8;
+    width: 90%;
+} */
+
+.section-1 .row .col-md-6:last-child {
+    position: relative;
+    padding-left: 8vmin;
+    font-family: var(--Girasso);
+}
+
+.section-1 .row .col-md-6 .uniq {
+    position: absolute;
+    top: -2vmin;
+    left: 14vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 7vmin;
+    box-shadow: 0px 25px 42px rgba(231, 68, 3, 0.904);
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2.4em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+/* Section2 */
+.cover {
+    width: 100%;
+    height: 60vmin;
+    background: url('../assets/cover/kb1.jpg');
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.521);
+    height: 100%;
+    width: 100%;
+    padding-top: 20vmin;
+}
+
+.cover .content>h1 {
+    font-family: var(--Codystar);
+    font-weight: bold;
+    font-size: 8vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: var(--koho);
+    font-size: 4vmin;
+    color: white;
+
+}
+
+.feat .rect {
+    position: relative;
+    z-index: 1;
+    background: var(--boxgradient);
+    width: 19rem;
+    height: 19rem;
+    padding-top: 5vmin;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 1px 2px 50px 0px rgba(0, 0, 0, 0.568);
+}
+
+.feat .rect h1 {
+    font-family: var(--Codystar);
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.feat .rect p {
+    font-family: var(--Girasso);
+    font-size: 2.5vmin;
+    color: rgb(0, 0, 0)
+}
+
+.purchase>h1 {
+    padding-top: 30vmin;
+    padding-bottom: 0.1em;
+    font-family: var(--Reggae-One);
+}
+
+.purchase>p {
+    font-family: var(--Noto-Sans);
+    font-size: 1.2rem;
+}
+
+.purchase .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+}
+
+.cards .title {
+    background: #d4d4d4ee;
+    padding: 1.4rem 2.5rem;
+    font-size: 4vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3rem;
+    color: var(--light-black);
+}
+
+.card-body .pricing {
+    background: #d4d4d49f;
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+}
+
+.card-body .pricing>h1 {
+    font-size: 8vmin;
+    padding: 1em 0.5em;
+}
+
+/* Section3 */
+
+.section-3 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-3 .team {
+    padding: 0 4vmin 10vmin 4vmin;
+}
+
+.section-3 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.section-3 .card .card-text {
+    padding: 0.5em;
+}
+
+.section-3 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+.border-radius {
+    border-radius: 35px;
+    width: 90%;
+}
+
+/* Contactus */
+.contactus {
+    padding: 10vmin 22vmin;
+    background: var(--bggradient);
+    width: 100%;
+    height: 38rem;
+}
+
+.contactus h2 {
+    font-family: var(--Girasso);
+}
+
+.contactus label {
+    font-family: var(--Noto-Sans);
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.747);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+    font-size: 1.4em;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #ff512f;
+}
+
+footer .column i+i {
+    padding: 0 0.6em;
+}
